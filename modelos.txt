@@ -1,0 +1,12 @@
+# Configuração Nano: guardar em ~/MinhaIA/app/modelos.txt
+# Formato: nome apresentado = modelo instalado no Ollama
+# O ficheiro é relido ao carregar o seletor e ao enviar uma mensagem.
+
+nano basic = qwen2.5:1.5b
+nano padrão = qwen2.5:3b
+nano código = qwen2.5-coder:3b
+nano llama = llama3.2:3b
+nano raciocínio = qwen3:4b
+
+# Só ative a opção seguinte se tiver instalado um modelo com visão:
+# nano visão = qwen2.5vl:3b
